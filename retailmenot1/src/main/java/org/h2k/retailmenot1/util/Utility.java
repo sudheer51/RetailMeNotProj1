@@ -27,7 +27,7 @@ public class Utility {
 	  
 	public static WebDriver getDriverInstance(String browserType)
 	{
-
+		System.out.println("for github");
 		if(browserType.equals("FF"))
 		{
 			driver = new FirefoxDriver();
